@@ -17,7 +17,9 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
  */
 @SpringBootApplication
 @Theme(value = "flowcrmtutorial")
-@PWA(name = "Flow CRM Tutorial", shortName = "Flow CRM Tutorial", offlineResources = {})
+@PWA(name = "Vaadin CRM",
+        shortName = "CRM",
+        offlineResources = {"images/2439857235.png"})
 @NpmPackage(value = "line-awesome", version = "1.3.0")
 public class Application extends SpringBootServletInitializer implements AppShellConfigurator {
 
